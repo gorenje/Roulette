@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TestUtilityAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TestUtilityAppAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
+		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AB0DB2D0DB0083E9F9 /* RootViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		4230B7F60F6A8E8100E5CC11 /* whel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230B7F50F6A8E8100E5CC11 /* whel.png */; };
+		4230B7FB0F6A907800E5CC11 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230B7FA0F6A907800E5CC11 /* arrow.png */; };
+		4230BA7A0F6D8E3A00E5CC11 /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230BA790F6D8E3900E5CC11 /* wheel.png */; };
+		4230BB900F6E9DE500E5CC11 /* innerwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230BB8F0F6E9DE500E5CC11 /* innerwheel.png */; };
+		4230BBA90F6EB00400E5CC11 /* PrevNumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230BBA80F6EB00400E5CC11 /* PrevNumManager.m */; };
+		4230BCC00F6FF1A000E5CC11 /* RouletteNumberLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230BCBF0F6FF1A000E5CC11 /* RouletteNumberLogic.m */; };
+		4230BDAC0F70269400E5CC11 /* roulettebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230BDAB0F70269400E5CC11 /* roulettebg.png */; };
+		4230BDE40F7034B500E5CC11 /* addbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230BDE30F7034B500E5CC11 /* addbutton.png */; };
+		423E30DB0F777517003A4970 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 423E30DA0F777517003A4970 /* border.png */; };
+		423E310D0F7776A6003A4970 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E31070F7776A6003A4970 /* AdViewController.m */; };
+		423E310E0F7776A6003A4970 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E310B0F7776A6003A4970 /* libAdMobDevice.a */; };
+		423E310F0F7776A6003A4970 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E310C0F7776A6003A4970 /* libAdMobSimulator.a */; };
+		423E31170F777737003A4970 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E31160F777737003A4970 /* QuartzCore.framework */; };
+		423E311B0F777746003A4970 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E311A0F777746003A4970 /* CoreLocation.framework */; };
+		423E31B80F786801003A4970 /* plusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 423E31B70F786801003A4970 /* plusbutton.png */; };
+		423E32630F78FCA5003A4970 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 423E32620F78FCA5003A4970 /* Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TestUtilityAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtilityAppAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TestUtilityAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtilityAppAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TestUtilityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUtilityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideView.h; path = Classes/FlipsideView.h; sourceTree = "<group>"; };
+		289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideView.m; path = Classes/FlipsideView.m; sourceTree = "<group>"; };
+		289233A40DB2D0840083E9F9 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
+		289233A50DB2D0840083E9F9 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TestUtilityApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtilityApp_Prefix.pch; sourceTree = "<group>"; };
+		4230B7F50F6A8E8100E5CC11 /* whel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whel.png; sourceTree = "<group>"; };
+		4230B7FA0F6A907800E5CC11 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		4230BA790F6D8E3900E5CC11 /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel.png; sourceTree = "<group>"; };
+		4230BB8F0F6E9DE500E5CC11 /* innerwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innerwheel.png; sourceTree = "<group>"; };
+		4230BBA70F6EB00400E5CC11 /* PrevNumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrevNumManager.h; sourceTree = "<group>"; };
+		4230BBA80F6EB00400E5CC11 /* PrevNumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrevNumManager.m; sourceTree = "<group>"; };
+		4230BCBE0F6FF1A000E5CC11 /* RouletteNumberLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouletteNumberLogic.h; sourceTree = "<group>"; };
+		4230BCBF0F6FF1A000E5CC11 /* RouletteNumberLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouletteNumberLogic.m; sourceTree = "<group>"; };
+		4230BDAB0F70269400E5CC11 /* roulettebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roulettebg.png; sourceTree = "<group>"; };
+		4230BDE30F7034B500E5CC11 /* addbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addbutton.png; sourceTree = "<group>"; };
+		423E30DA0F777517003A4970 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = "<group>"; };
+		423E31070F7776A6003A4970 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		423E31080F7776A6003A4970 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		423E31090F7776A6003A4970 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		423E310A0F7776A6003A4970 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		423E310B0F7776A6003A4970 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice.a; sourceTree = "<group>"; };
+		423E310C0F7776A6003A4970 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator.a; sourceTree = "<group>"; };
+		423E31160F777737003A4970 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		423E311A0F777746003A4970 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		423E31B70F786801003A4970 /* plusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusbutton.png; sourceTree = "<group>"; };
+		423E32620F78FCA5003A4970 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				423E310E0F7776A6003A4970 /* libAdMobDevice.a in Frameworks */,
+				423E310F0F7776A6003A4970 /* libAdMobSimulator.a in Frameworks */,
+				423E31170F777737003A4970 /* QuartzCore.framework in Frameworks */,
+				423E311B0F777746003A4970 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289233AA0DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233AB0DB2D0DB0083E9F9 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* TestUtilityAppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TestUtilityAppAppDelegate.m */,
+			);
+			name = "Application Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TestUtilityApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A20DB2D0840083E9F9 /* FlipsideView.h */,
+				289233A30DB2D0840083E9F9 /* FlipsideView.m */,
+				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+			);
+			name = "Flipside View";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A40DB2D0840083E9F9 /* MainView.h */,
+				289233A50DB2D0840083E9F9 /* MainView.m */,
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4230BCBC0F6FF18B00E5CC11 /* Models */,
+				289233A00DB2D0730083E9F9 /* Main View */,
+				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				080E96DDFE201D6D7F000001 /* Application Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				423E31160F777737003A4970 /* QuartzCore.framework */,
+				423E311A0F777746003A4970 /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TestUtilityApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				4230BBA70F6EB00400E5CC11 /* PrevNumManager.h */,
+				4230BBA80F6EB00400E5CC11 /* PrevNumManager.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				423E30DA0F777517003A4970 /* border.png */,
+				423E32620F78FCA5003A4970 /* Logo.png */,
+				4230BDE30F7034B500E5CC11 /* addbutton.png */,
+				423E31B70F786801003A4970 /* plusbutton.png */,
+				4230BDAB0F70269400E5CC11 /* roulettebg.png */,
+				4230BB8F0F6E9DE500E5CC11 /* innerwheel.png */,
+				4230BA790F6D8E3900E5CC11 /* wheel.png */,
+				4230B7FA0F6A907800E5CC11 /* arrow.png */,
+				4230B7F50F6A8E8100E5CC11 /* whel.png */,
+				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423E31060F7776A6003A4970 /* AdMob */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4230BCBC0F6FF18B00E5CC11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4230BCBE0F6FF1A000E5CC11 /* RouletteNumberLogic.h */,
+				4230BCBF0F6FF1A000E5CC11 /* RouletteNumberLogic.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		423E31060F7776A6003A4970 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				423E31070F7776A6003A4970 /* AdViewController.m */,
+				423E31080F7776A6003A4970 /* AdViewController.h */,
+				423E31090F7776A6003A4970 /* AdMobDelegateProtocol.h */,
+				423E310A0F7776A6003A4970 /* AdMobView.h */,
+				423E310B0F7776A6003A4970 /* libAdMobDevice.a */,
+				423E310C0F7776A6003A4970 /* libAdMobSimulator.a */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TestUtilityApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TestUtilityApp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUtilityApp;
+			productName = TestUtilityApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* TestUtilityApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestUtilityApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TestUtilityApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				4230B7F60F6A8E8100E5CC11 /* whel.png in Resources */,
+				4230B7FB0F6A907800E5CC11 /* arrow.png in Resources */,
+				4230BA7A0F6D8E3A00E5CC11 /* wheel.png in Resources */,
+				4230BB900F6E9DE500E5CC11 /* innerwheel.png in Resources */,
+				4230BDAC0F70269400E5CC11 /* roulettebg.png in Resources */,
+				4230BDE40F7034B500E5CC11 /* addbutton.png in Resources */,
+				423E30DB0F777517003A4970 /* border.png in Resources */,
+				423E31B80F786801003A4970 /* plusbutton.png in Resources */,
+				423E32630F78FCA5003A4970 /* Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TestUtilityAppAppDelegate.m in Sources */,
+				289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */,
+				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				4230BBA90F6EB00400E5CC11 /* PrevNumManager.m in Sources */,
+				4230BCC00F6FF1A000E5CC11 /* RouletteNumberLogic.m in Sources */,
+				423E310D0F7776A6003A4970 /* AdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestUtilityApp_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/gsl-1.12/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/blas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/block/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/bspline/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cblas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cdf/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cheb/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/combination/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/complex/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/deriv/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/dht/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/diff/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/eigen/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/err/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fft/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/histogram/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ieee-utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/integration/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/interpolation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/linalg/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/matrix/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/min/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/monte/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multifit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multimin/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multiroots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ntuple/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ode-initval/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/permutation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/poly/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/qrng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/randist/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/rng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/roots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/siman/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sort/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/specfunc/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/statistics/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sum/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sys/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/test/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/vector/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/wavelet/.libs\"",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = TestUtilityApp;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestUtilityApp_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/gsl-1.12/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/blas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/block/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/bspline/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cblas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cdf/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cheb/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/combination/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/complex/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/deriv/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/dht/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/diff/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/eigen/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/err/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fft/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/histogram/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ieee-utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/integration/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/interpolation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/linalg/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/matrix/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/min/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/monte/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multifit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multimin/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multiroots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ntuple/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ode-initval/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/permutation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/poly/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/qrng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/randist/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/rng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/roots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/siman/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sort/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/specfunc/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/statistics/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sum/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sys/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/test/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/vector/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/wavelet/.libs\"",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = TestUtilityApp;
+			};
+			name = Release;
+		};
+		423E32330F78F1D4003A4970 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gerrit Riessen";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gerrit Riessen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "615D2739-FF6B-43F6-8084-8ADDFE6002CB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "615D2739-FF6B-43F6-8084-8ADDFE6002CB";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Distribution;
+		};
+		423E32340F78F1D4003A4970 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestUtilityApp_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/gsl-1.12/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/blas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/block/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/bspline/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cblas/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cdf/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/cheb/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/combination/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/complex/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/deriv/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/dht/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/diff/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/eigen/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/err/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fft/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/fit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/histogram/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ieee-utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/integration/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/interpolation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/linalg/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/matrix/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/min/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/monte/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multifit/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multimin/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/multiroots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ntuple/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/ode-initval/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/permutation/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/poly/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/qrng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/randist/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/rng/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/roots/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/siman/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sort/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/specfunc/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/statistics/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sum/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/sys/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/test/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/utils/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/vector/.libs\"",
+					"\"$(SRCROOT)/gsl-1.12/wavelet/.libs\"",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = TestUtilityApp;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gerrit Riessen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FADCC928-9B9E-4F5C-8E23-B16AAA68AD93";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gerrit Riessen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FADCC928-9B9E-4F5C-8E23-B16AAA68AD93";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TestUtilityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				423E32340F78F1D4003A4970 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestUtilityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				423E32330F78F1D4003A4970 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
